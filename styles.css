@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: bisque;
+    overflow-x: hidden;
+}
+header #h1{
+    font-size: 50px;
+    color: brown;
+    
+    position: relative;
+    left:15%
+}
+
+.form{
+    display: block;
+    position: relative;
+    top: -10px;
+    left:15%
+    
+}
+
+.label{
+    display: block;
+    color: rgb(2, 62, 151);
+    padding: 5px;
+    margin: 2px;
+}
+
+.input{
+    padding: 10px;
+    width: 40%;
+    border: 1px solid skyblue;
+    border-radius:5px;
+    margin: 5px;
+}
+
+::placeholder{
+    font-family: 'Quicksand', sans-serif;
+}
+.btn1{
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    width: 5%;
+    border: none;
+    border-radius: 5px;
+    background-color:coral;
+    color: white;
+    margin: 5px;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(219, 80, 30);
+}
+.wrapper{
+    display: flex;
+    
+    position: relative;
+    padding: 10px;
+    left:15%
+    
+}
+
+.btn2{
+    padding: 20px;
+    width: 17%;
+    border: none;
+    border-radius: 5px;
+    background-color:darkcyan;
+    color: white;
+    margin-right: 100px;
+}
+
+.btn3{
+    padding: 20px;
+    width: 17%;
+    border: none;
+    border-radius: 5px;
+    background-color:maroon;
+    color: white;
+    margin-right: 100px;
+}
+
+.div{
+    display: flex;
+    
+    position: relative;
+    padding: 10px;
+    left:15%
+    
+}
+.para{
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+    font-weight: bolder;
+    
+}
+
+.p{
+    visibility: hidden;
+}
+
+.pat{
+    visibility:visible;
+}
+
+.p1{
+    position: relative;
+    left: 15%;
+    visibility: hidden;
+}
+.prat{
+    visibility: visible;
+}
